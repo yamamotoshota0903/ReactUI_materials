@@ -1,0 +1,36 @@
+{
+  "name": "materials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "__comment":"https://qiita.com/whiteraccoon/items/f0675297fce333ac9474",
+    "start": "node_modules/.bin/webpack-cli serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamamotoshota0903/ReactUI_materials.git"
+  },
+  "author": "yamamotoshota0903",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamamotoshota0903/ReactUI_materials/issues"
+  },
+  "homepage": "https://github.com/yamamotoshota0903/ReactUI_materials#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
